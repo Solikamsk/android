@@ -6,7 +6,7 @@
  
 #define SPEED         (uint16_t)2000
 #define RX_PIN        (uint8_t)11
-#define TX_PIN        (uint8_t)12 //это передача
+#define TX_PIN        (uint8_t)12 //это пере дача
 #define PTT_PIN       (uint8_t)10
 #define PTT_INVERTED  false
 
