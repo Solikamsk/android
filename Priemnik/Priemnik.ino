@@ -10,15 +10,10 @@
 #define PTT_PIN       (uint8_t)10
 #define PTT_INVERTED  false
  
-/*
-  Создаём экземпляр класса RH_ASK приёмника
-*/
 RH_ASK driver(SPEED, RX_PIN, TX_PIN, PTT_PIN, PTT_INVERTED);
  
 void setup() {
-  /*
-    задаем скорость общения с компьютером
-  */
+
   Serial.begin(115200);
   Serial.println(F("start!"));
  
